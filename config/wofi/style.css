@@ -10,8 +10,7 @@
   font-family: 'FiraCode Nerd Font', monospace;
   font-size: 22px;
   background-color: transparent !important;  /* reset all backgrounds first */
-  box-shadow: none !important;
-  border: none !important;
+  border: none;
   margin: 0;
   padding: 0;
 }
@@ -23,7 +22,6 @@ window,
   padding: 10px;
   border-radius: 8px;
   background-color: rgba(30, 30, 46, 0.6);
-  box-shadow: none;
   border: none;
 }
 
@@ -41,7 +39,7 @@ window,
 }
 
 #input * {
-  outline: 4px solid @red !important;
+  outline: 4px solid @red;
 }
 
 /* Entry styling */
