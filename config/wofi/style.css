@@ -1,9 +1,7 @@
-@define-color base #1e1e2e;
-@define-color base-rgb rgb(30, 30, 46);
+@define-color base-rgb rgba(30, 30, 46, 0.6);
 @define-color text #cdd6f4;
-@define-color red #f38ba8;
-@define-color lavender #b4befe;
-@define-color mauve #cba6f7;
+@define-color red #b04315;
+@define-color blue #a9bed6;
 
 /* Global font and base styles */
 * {
@@ -21,7 +19,7 @@ window,
   margin: 4px;
   padding: 10px;
   border-radius: 8px;
-  background-color: rgba(30, 30, 46, 0.6);
+  background-color: @base-rgb;
   border: none;
 }
 
@@ -34,31 +32,33 @@ window,
 }
 
 #input image {
+  padding: 10px;
   color: @red;
   border: none;
 }
 
 #input * {
+  padding: 10px;
   outline: 4px solid @red;
 }
 
 /* Entry styling */
 #entry {
-  background-color: rgba(30, 30, 46, 0.6);
+  background-color: @base-rgb;
   border-radius: 4px;
   padding-left: 10px;
 }
 
 #entry arrow {
-  color: @lavender;
+  color: @blue;
   border: none;
 }
 
 /* Selected entry */
 #entry:selected {
-  border: 2px solid @lavender;
+  border: 2px solid @blue;
 }
 
 #entry:selected #text {
-  color: @mauve;
+  color: @blue;
 }
