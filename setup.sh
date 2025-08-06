@@ -44,6 +44,7 @@ echo "Installing extras..."
 paru -S --noconfirm \
     ttf-firacode \
     ttf-firacode-nerd \
+    qalculate-gtk \
     adw-gtk-theme \
     obs-studio \
     kicad
