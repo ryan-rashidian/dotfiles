@@ -37,7 +37,10 @@ paru -S --noconfirm \
     thunar \
     npm \
     nodejs \
-    clang
+    clang \
+    cmake \
+    arm-none-eabi-gcc \
+    arm-none-eabi-newlib
 
 # Extras
 echo "Installing extras..."
