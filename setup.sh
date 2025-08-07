@@ -40,7 +40,8 @@ paru -S --noconfirm \
     clang \
     cmake \
     arm-none-eabi-gcc \
-    arm-none-eabi-newlib
+    arm-none-eabi-newlib \
+    minicom
 
 # Extras
 echo "Installing extras..."
