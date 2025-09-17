@@ -1,16 +1,14 @@
 @import "mocha.css"; 
 
 * {
-    font-family: "MesloLGS Nerd Font Mono Bold";
-    font-size: 16px;
+    font-family: "Fira Code Nerd Font";
+    font-size: 18px;
     min-height: 0;
     font-weight: bold;
 }
 
 window#waybar {
     background: transparent;
-    background-color: @crust;
-    color: @overlay0;
     transition-property: background-color;
     transition-duration: 0.1s;
     border-bottom: 1px solid @overlay1;
