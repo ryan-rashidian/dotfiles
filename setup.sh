@@ -50,6 +50,8 @@ paru -S --noconfirm \
     ttf-firacode-nerd \
     qalculate-gtk \
     adw-gtk-theme \
+    gruvbox-dark-gtk \
+    gruvbox-dark-icons-gtk \
     obs-studio \
     kicad
 
