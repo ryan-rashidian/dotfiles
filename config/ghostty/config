@@ -1,9 +1,13 @@
 mouse-hide-while-typing = true
 shell-integration-features = no-cursor
+working-directory = home
+window-decoration = none
+window-theme = ghostty
+
 cursor-style = block
 cursor-style-blink = false
 font-size = 16
 font-family = "Fira Code"
-theme = catppuccin-mocha
+theme = Gruvbox Dark
 background-blur = true
 background-opacity = 0.70
