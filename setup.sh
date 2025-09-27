@@ -25,6 +25,7 @@ paru -S --noconfirm \
     htop \
     tmux \
     openssh \
+    ripgrep \
     unzip \
     curl \
     wget \
