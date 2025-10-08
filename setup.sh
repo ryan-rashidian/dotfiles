@@ -24,6 +24,7 @@ echo "Installing essentials..."
 paru -S --noconfirm \
     htop \
     tmux \
+    pyenv \
     openssh \
     ripgrep \
     unzip \
