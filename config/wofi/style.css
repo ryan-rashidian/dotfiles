@@ -1,64 +1,42 @@
-@define-color base-rgb rgba(40, 40, 40, 0.6);
-@define-color text #d79921;
-@define-color orange #d65d0e;
-@define-color yellow #d79921;
-
-/* Global font and base styles */
-* {
-  font-family: 'FiraCode Nerd Font', monospace;
-  font-size: 22px;
-  background-color: transparent !important;  /* reset all backgrounds first */
-  border: none;
-  margin: 0;
-  padding: 0;
+window {
+    margin: 0px;
+    border: 2px solid #504945;
+    background-color: rgba(64, 69, 69, 0.75);
+    backdrop-filter: blur(10px);
 }
 
-/* Main window container */
-window, 
-#entry {
-  margin: 4px;
-  padding: 10px;
-  border-radius: 8px;
-  background-color: @base-rgb;
-  border: none;
-}
-
-/* Input specific tweaks */
 #input {
-  margin: 10px 10px;
-  border-radius: 0.1em;
-  color: @text;
-  outline-offset: 2px;
+    margin: 6px;
+    border: none;
+    color: #ebdbb2;
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 24px;
 }
 
-#input image {
-  padding: 10px;
-  color: @orange;
-  border: none;
+#outer-box {
+    margin: 5px;
+    padding: 10px;
+    background-color: #282828;
 }
 
-#input * {
-  padding: 10px;
-  outline: 4px solid @orange;
+#scroll {
+    background-color: #282828;
 }
 
-/* Entry styling */
 #entry {
-  background-color: @base-rgb;
-  border-radius: 4px;
-  padding-left: 10px;
+    padding: 8px 10px;
+    border-radius: 4px;
+    color: #ebdbb2;
+    font-size: 18px;
 }
 
-#entry arrow {
-  color: @yellow;
-  border: none;
-}
-
-/* Selected entry */
 #entry:selected {
-  border: 2px solid @yellow;
+    color: #fabd2f;
 }
 
-#entry:selected #text {
-  color: @yellow;
+#text {
+    margin: 2px;
+    color: inherit;
 }
+
