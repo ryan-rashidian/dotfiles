@@ -3,6 +3,7 @@ window {
     border: 2px solid #504945;
     background-color: rgba(64, 69, 69, 0.75);
     backdrop-filter: blur(10px);
+    border-radius: 10px;
 }
 
 #input {
@@ -17,11 +18,11 @@ window {
 #outer-box {
     margin: 5px;
     padding: 10px;
-    background-color: #282828;
+    border-radius: 10px;
 }
 
 #scroll {
-    background-color: #282828;
+    padding: 10px;
 }
 
 #entry {
@@ -32,7 +33,7 @@ window {
 }
 
 #entry:selected {
-    color: #fabd2f;
+    color: #83a598;
 }
 
 #text {

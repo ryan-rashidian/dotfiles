@@ -1,8 +1,8 @@
 {
   "position": "top",
   "modules-left": ["hyprland/workspaces"],
-  "modules-center": [],
-  "modules-right": ["pulseaudio", "network", "battery", "clock"],
+  "modules-center": ["clock"],
+  "modules-right": ["pulseaudio", "network", "battery"],
 
   "clock": {
     "format": "<span foreground='#d79921'>  </span>{:%a %d %H:%M}",
