@@ -54,6 +54,7 @@ paru -S --noconfirm \
     adw-gtk-theme \
     gruvbox-dark-gtk \
     gruvbox-dark-icons-gtk \
+    obsidian \
     obs-studio \
     kicad
 
