@@ -48,7 +48,7 @@ paru -S --noconfirm \
 # Extras
 echo "Installing extras..."
 paru -S --noconfirm \
-    ttf-firacode \
+    ttf-fira-code \
     ttf-firacode-nerd \
     qalculate-gtk \
     adw-gtk-theme \
