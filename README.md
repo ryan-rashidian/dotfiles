@@ -8,4 +8,5 @@ Personal configuration files for Arch Linux + Hyprland.
 - Waybar status bar
 - Wofi launcher
 - Ghostty terminal
+- Mako notifications
 - Bash shell (.bashrc)

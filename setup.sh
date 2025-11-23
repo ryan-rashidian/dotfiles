@@ -71,7 +71,8 @@ paru -S --noconfirm \
     udiskie \
     zathura \
     imv \
-    mpv
+    mpv \
+    mako
 
 xdg-mime default imv.desktop image/png
 xdg-mime default imv.desktop image/jpeg
@@ -79,6 +80,8 @@ xdg-mime default zathura.desktop application/pdf
 xdg-mime default mpv.desktop video/x-matroska
 xdg-mime default mpv.desktop video/webm
 xdg-mime default mpv.desktop video/mp4
+
+systemctl --user enable --now mako.service
 
 # Firewall
 # - Basic firewalld configuration
