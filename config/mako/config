@@ -1,17 +1,17 @@
-# FONT
+# Font
 font=Fira Code 16
 
-# GRUVBOX DARK COLORS
-background-color=#504945ff
+# Colors
+background-color=#404545ff
 text-color=#ebdbb2ff
 border-color=#458588ff
 
-# SHAPE / SIZE
+# Shape/Size
 border-radius=10
 padding=12,16
-margin=20
+margin=30
 
-# POSITION
+# Position
 anchor=top-right
 width=320
 
