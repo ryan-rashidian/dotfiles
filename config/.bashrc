@@ -7,7 +7,7 @@
 
 alias ls='ls --color=auto --hide=Desktop --hide=Downloads --hide=Jts'
 alias grep='grep --color=auto'
-PS1='[\u@\h \W]\$ '
+PS1="\[\033[0;32m\]\u@\h\[\033[0m\]:\[\033[0;34m\]\w\[\033[0m\]\$ "
 
 # >>> Setup paths >>>
 export PATH="$HOME/.local/bin:$HOME/bin:$PATH"
