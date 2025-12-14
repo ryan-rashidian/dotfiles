@@ -12,9 +12,13 @@ PS1="\[\033[0;32m\]\u@\h\[\033[0m\]:\[\033[0;34m\]\w\[\033[0m\]\$ "
 # >>> Command alias >>>
 alias ls='ls --color=auto --hide=Desktop --hide=Downloads --hide=Jts'
 alias grep='grep --color=auto'
-alias makepkg='makepkg --jobs=$(nproc)'
 alias make='make -j$(nproc)'
 # <<< Command alias <<<
+
+# >>> MAKEFLAGS >>>
+# Set makepkg to run parallel jobs
+export MAKEFLAGS="-j$(nproc)"
+# <<< MAKEFLAGS <<<
 
 # >>> Setup paths >>>
 export PATH="$HOME/.local/bin:$HOME/bin:$PATH"
