@@ -7,14 +7,14 @@ set -e # stop on error
 sudo pacman -Syu --noconfirm
 sudo pacman -S --needed --noconfirm base-devel git
 
-if ! command -v paru &> /dev/null; then
+if ! command -v yay &> /dev/null; then
     echo "Installing Yay AUR..."
     mkdir -p ~/tmp
-    git clone https://aur.archlinux.org/yay-bin.git ~/tmp/yay
-    cd ~/tmp/yay
+    git clone https://aur.archlinux.org/yay-bin.git ~/tmp/yay-bin
+    cd ~/tmp/yay-bin
     makepkg -si --noconfirm
     cd ~
-    rm -rf ~/tmp/yay
+    rm -rf ~/tmp/yay-bin
 fi
 
 yay -Syu --noconfirm
