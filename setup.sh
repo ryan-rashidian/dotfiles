@@ -8,20 +8,20 @@ sudo pacman -Syu --noconfirm
 sudo pacman -S --needed --noconfirm base-devel git
 
 if ! command -v paru &> /dev/null; then
-    echo "Installing Paru AUR..."
+    echo "Installing Yay AUR..."
     mkdir -p ~/tmp
-    git clone https://aur.archlinux.org/paru.git ~/tmp/paru
-    cd ~/tmp/paru
+    git clone https://aur.archlinux.org/yay-bin.git ~/tmp/yay
+    cd ~/tmp/yay
     makepkg -si --noconfirm
     cd ~
-    rm -rf ~/tmp/paru
+    rm -rf ~/tmp/yay
 fi
 
-paru -Syu --noconfirm
+yay -Syu --noconfirm
 
 # Essentials
 echo "Installing essentials..."
-paru -S --noconfirm \
+yay -S --noconfirm \
     htop \
     tmux \
     pyenv \
@@ -47,7 +47,7 @@ paru -S --noconfirm \
 
 # Extras
 echo "Installing extras..."
-paru -S --noconfirm \
+yay -S --noconfirm \
     ttf-fira-code \
     ttf-firacode-nerd \
     qalculate-gtk \
@@ -60,7 +60,7 @@ paru -S --noconfirm \
 
 # Hyprland
 echo "Installing Hyprland..."
-paru -S --noconfirm \
+yay -S --noconfirm \
     hyprland \
     hyprpaper \
     waybar \
@@ -85,7 +85,7 @@ systemctl --user enable --now mako.service
 
 # Firewall
 # - Basic firewalld configuration
-paru -S --noconfirm firewalld
+yay -S --noconfirm firewalld
 sudo systemctl enable firewalld --now
 
 echo "Bootstrap Complete."
