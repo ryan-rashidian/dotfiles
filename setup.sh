@@ -22,6 +22,7 @@ yay -Syu --noconfirm
 # Essentials
 echo "Installing essentials..."
 yay -S --noconfirm \
+    dosfstools \
     htop \
     tmux \
     pyenv \
