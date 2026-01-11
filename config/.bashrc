@@ -1,6 +1,4 @@
-#
-# .bashrc
-#
+# ~/.bashrc
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
@@ -14,21 +12,4 @@ alias ls='ls --color=auto --hide=Desktop --hide=Downloads --hide=Jts'
 alias grep='grep --color=auto'
 alias make='make -j$(nproc)'
 # <<< Command alias <<<
-
-# >>> MAKEFLAGS >>>
-# Set makepkg to run parallel jobs
-export MAKEFLAGS="-j$(nproc)"
-# <<< MAKEFLAGS <<<
-
-# >>> Setup paths >>>
-export PATH="$HOME/.local/bin:$HOME/bin:$PATH"
-# <<< Setup paths <<<
-
-# >>> Setup pyenv >>>
-export PYENV_ROOT="$HOME/.pyenv"
-export PATH="$PYENV_ROOT/bin:$PATH"
-if command -v pyenv >/dev/null 2>&1; then
-  eval "$(pyenv init -)"
-fi
-# <<< Setup pyenv <<<
 
