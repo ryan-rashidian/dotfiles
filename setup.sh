@@ -27,6 +27,7 @@ yay -S --noconfirm \
     tmux \
     pyenv \
     openssh \
+    sshfs \
     ripgrep \
     unzip \
     curl \
@@ -43,8 +44,7 @@ yay -S --noconfirm \
     clang \
     cmake \
     arm-none-eabi-gcc \
-    arm-none-eabi-newlib \
-    minicom
+    arm-none-eabi-newlib
 
 # Extras
 echo "Installing extras..."
