@@ -26,6 +26,7 @@ yay -S --noconfirm \
     htop \
     tmux \
     pyenv \
+    python-pipx \
     openssh \
     sshfs \
     ripgrep \
