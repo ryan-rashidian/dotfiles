@@ -56,6 +56,7 @@ yay -S --noconfirm \
     adw-gtk-theme \
     gruvbox-dark-gtk \
     gruvbox-dark-icons-gtk \
+    fastfetch \
     obsidian \
     obs-studio \
     kicad
