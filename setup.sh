@@ -23,7 +23,7 @@ yay -Syu --noconfirm
 echo "Installing essentials..."
 yay -S --noconfirm \
     dosfstools \
-    htop \
+    btop \
     tmux \
     pyenv \
     python-pipx \
